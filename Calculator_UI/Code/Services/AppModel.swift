@@ -77,6 +77,7 @@ class AppModel: ObservableObject {
             result = (Double(input) ?? result) * 0.01
             self.valueComputed = true
             self.currentOperation = .unknown
+            
         case .plusMinus:
             result = -result
             self.valueComputed = true

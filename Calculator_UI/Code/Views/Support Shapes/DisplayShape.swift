@@ -34,10 +34,5 @@ struct DisplayShape_Previews: PreviewProvider {
         DisplayShape()
             .stroke(lineWidth: 2)
             .frame(height: 274)
-            .background(
-                Color.green
-                    .opacity(0.3)
-                    .cornerRadius(24)
-            )
     }
 }
