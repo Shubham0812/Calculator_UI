@@ -10,7 +10,7 @@ import SwiftUI
 struct DisplayView: View {
     
     // MARK:- variables
-    @EnvironmentObject var appModel: Appmodel
+    @EnvironmentObject var appModel: AppModel
     
     let height: CGFloat
     let colorScheme: ColorScheme
@@ -22,18 +22,20 @@ struct DisplayView: View {
             DisplayShape()
                 .foregroundColor(Color(UIColor(named: "displayColor")!))
                 .frame(height: height * 0.275)
-                .overlay(
-                    VStack(spacing: 0) {
-                        Spacer()
-                        Rectangle()
-                            .foregroundColor(colorScheme == .light ? Color.blue : Color(hex: "#683B94"))
-                            .frame(height: 18)
-                        Rectangle()
-                            .foregroundColor(colorScheme == .light ? Color.orange : Color(hex: "##FA4656"))
-                            .frame(height: 18)
-                    }
-                )
+    
+            ZStack{
+                VStack(spacing: 0) {
+                    Spacer()
+                    Rectangle()
+                        .foregroundColor(colorScheme == .light ? Color.blue : Color(hex: "#683B94"))
+                        .frame(height: 18)
+                    Rectangle()
+                        .foregroundColor(colorScheme == .light ? Color.orange : Color(hex: "#FA4656"))
+                        .frame(height: 18)
+                }
+            }.frame(height: height * 0.275)
             
+
             DisplayShape()
                 .stroke(style: StrokeStyle(lineWidth: 5, lineCap: .round, lineJoin: .round))
                 .frame(height: height * 0.275)
@@ -51,15 +53,14 @@ struct DisplayView: View {
                         .opacity(self.appModel.valueComputed ?  0.6 : 1)
                         .offset(y: self.appModel.valueComputed ? -10 : 0)
                         .animation(.easeOut(duration: duration))
+                    
                     Text(appModel.result.clean(places: 3))
                         .font(self.appModel.valueComputed ? TypefaceOne.bold.font(size: 64) : TypefaceOne.medium.font(size: 24))
                         .opacity(self.appModel.valueComputed ? 1 : 0)
-                        .animation(.spring())
                         .offset(y: self.appModel.valueComputed ? -15 : 0)
-                        .animation(.default)
+                        .animation(.spring())
                 }
             }.padding(.trailing, 18)
-            
         }
     }
 }
@@ -67,6 +68,6 @@ struct DisplayView: View {
 struct DisplayView_Previews: PreviewProvider {
     static var previews: some View {
         DisplayView(height: 818, colorScheme: .dark, duration: 0.3)
-            .environmentObject(Appmodel())
+            .environmentObject(AppModel())
     }
 }
