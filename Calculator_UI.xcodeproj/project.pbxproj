@@ -25,6 +25,7 @@
 		512F3EB6269AF790001D1F23 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F3EB5269AF790001D1F23 /* AppModel.swift */; };
 		512F3EB8269D8264001D1F23 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F3EB7269D8264001D1F23 /* FoundationExtensions.swift */; };
 		512F3EBA269DA6BA001D1F23 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F3EB9269DA6BA001D1F23 /* DisplayView.swift */; };
+		512F3EBC269DC75D001D1F23 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F3EBB269DC75D001D1F23 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		512F3EB5269AF790001D1F23 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		512F3EB7269D8264001D1F23 /* FoundationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
 		512F3EB9269DA6BA001D1F23 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		512F3EBB269DC75D001D1F23 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			children = (
 				512F3E92269AD1BF001D1F23 /* ColorExtensions.swift */,
 				512F3EB7269D8264001D1F23 /* FoundationExtensions.swift */,
+				512F3EBB269DC75D001D1F23 /* StringExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512F3EBC269DC75D001D1F23 /* StringExtensions.swift in Sources */,
 				512F3E9B269ADE22001D1F23 /* DisplayShape.swift in Sources */,
 				512F3E7D2699CAE2001D1F23 /* MainView.swift in Sources */,
 				512F3E95269AD1CE001D1F23 /* Colors.swift in Sources */,
