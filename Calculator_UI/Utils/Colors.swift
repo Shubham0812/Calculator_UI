@@ -7,8 +7,12 @@
 
 import SwiftUI
 
+/// there are a couple of ways in which you can define colors in a SwiftUI app
+/// I've used a function, that returns the color based on the ColorScheme Environment Property
+/// I've also used direct properties in some places, it's okay to do it if they are specific to a view, it's it's getting used in multiple places, then please create a common entry :D
+/// I've also created Color assets in the xcAssets file and used them in the project
+
 extension Color {
-    
     static let background: Color = Color(UIColor.systemBackground)
     static let label: Color = Color(UIColor.label)
     

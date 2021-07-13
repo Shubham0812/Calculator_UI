@@ -25,9 +25,12 @@ class AppModel: ObservableObject {
     
     @Published var input = "0" {
         didSet {
+            /// if  the input is empty, we show 0 by defaut;
             if input.isEmpty {
                 self.input = "0"
                 self.valueComputed = false
+                
+                /// if the user enters any digit, we remove our placeholder 0 and insert the new number
             } else if (input.starts(with: "0") && self.input.count > 1) {
                 self.input.removeFirst()
             }
@@ -42,12 +45,14 @@ class AppModel: ObservableObject {
     
     // MARK:- functions
     func addZero() {
+        /// if  it's not the initial 0 then append 0 to the input
         if (self.input.count != 1) {
             self.input += "0"
         }
     }
     
     func clearSingleEntry() {
+        /// removes the last entry from the input
         let removedEntry = self.input.removeLast()
         if (mathOperations.contains(removedEntry)) {
             self.currentOperation = .unknown
@@ -55,8 +60,8 @@ class AppModel: ObservableObject {
     }
     
     func calculate() {
+        /// if the input contains an incomplete expression, then don't evaluate it.
         if (!mathOperations.contains(input[input.count - 1])) {
-            
             let exp: NSExpression = NSExpression(format: input)
             guard let computedValue: Double = exp.expressionValue(with:nil, context: nil) as? Double else { return }
                         
