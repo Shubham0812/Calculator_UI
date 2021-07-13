@@ -16,17 +16,18 @@ enum TypefaceOne {
     func font(size: CGFloat) -> Font {
         switch self {
         case .regular:
-            return .custom("Degular-Regular", size: size)
+            return .system(size: size, weight: .regular)
         case .medium:
-            return .custom("Degular-Medium", size: size)
+            return .system(size: size, weight: .medium)
         case .semibold:
-            return .custom("Degular-SemiBold", size: size)
+            return .system(size: size, weight: .semibold)
         case .bold:
-            return .custom("Degular-Bold", size: size)
-            
+            return .system(size: size, weight: .bold)
+
         }
     }
 }
+
 
 enum TypefaceTwo {
     case regular

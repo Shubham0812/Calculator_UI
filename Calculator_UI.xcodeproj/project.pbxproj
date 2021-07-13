@@ -17,10 +17,6 @@
 		512F3E99269ADB6A001D1F23 /* EurostileExtendedBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 512F3E98269ADB6A001D1F23 /* EurostileExtendedBlack.ttf */; };
 		512F3E9B269ADE22001D1F23 /* DisplayShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F3E9A269ADE22001D1F23 /* DisplayShape.swift */; };
 		512F3E9F269AE4E4001D1F23 /* CalculatorPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F3E9E269AE4E4001D1F23 /* CalculatorPad.swift */; };
-		512F3EAA269AE5D3001D1F23 /* Degular-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 512F3EA1269AE5D3001D1F23 /* Degular-Regular.ttf */; };
-		512F3EAB269AE5D3001D1F23 /* Degular-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 512F3EA2269AE5D3001D1F23 /* Degular-Bold.ttf */; };
-		512F3EAC269AE5D3001D1F23 /* Degular-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 512F3EA3269AE5D3001D1F23 /* Degular-Medium.ttf */; };
-		512F3EAD269AE5D3001D1F23 /* Degular-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 512F3EA4269AE5D3001D1F23 /* Degular-Semibold.ttf */; };
 		512F3EAE269AE5D3001D1F23 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 512F3EA6269AE5D3001D1F23 /* Ubuntu-Medium.ttf */; };
 		512F3EAF269AE5D3001D1F23 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 512F3EA7269AE5D3001D1F23 /* Ubuntu-Regular.ttf */; };
 		512F3EB0269AE5D3001D1F23 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 512F3EA8269AE5D3001D1F23 /* Ubuntu-Bold.ttf */; };
@@ -44,10 +40,6 @@
 		512F3E98269ADB6A001D1F23 /* EurostileExtendedBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EurostileExtendedBlack.ttf; sourceTree = "<group>"; };
 		512F3E9A269ADE22001D1F23 /* DisplayShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayShape.swift; sourceTree = "<group>"; };
 		512F3E9E269AE4E4001D1F23 /* CalculatorPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorPad.swift; sourceTree = "<group>"; };
-		512F3EA1269AE5D3001D1F23 /* Degular-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Regular.ttf"; sourceTree = "<group>"; };
-		512F3EA2269AE5D3001D1F23 /* Degular-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Bold.ttf"; sourceTree = "<group>"; };
-		512F3EA3269AE5D3001D1F23 /* Degular-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Medium.ttf"; sourceTree = "<group>"; };
-		512F3EA4269AE5D3001D1F23 /* Degular-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Semibold.ttf"; sourceTree = "<group>"; };
 		512F3EA6269AE5D3001D1F23 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
 		512F3EA7269AE5D3001D1F23 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
 		512F3EA8269AE5D3001D1F23 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
@@ -165,7 +157,6 @@
 		512F3E91269AD150001D1F23 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				512F3EA0269AE5D3001D1F23 /* Degular */,
 				512F3EA5269AE5D3001D1F23 /* Ubuntu */,
 				512F3E98269ADB6A001D1F23 /* EurostileExtendedBlack.ttf */,
 			);
@@ -187,17 +178,6 @@
 				512F3EB9269DA6BA001D1F23 /* DisplayView.swift */,
 			);
 			path = "Support Views";
-			sourceTree = "<group>";
-		};
-		512F3EA0269AE5D3001D1F23 /* Degular */ = {
-			isa = PBXGroup;
-			children = (
-				512F3EA1269AE5D3001D1F23 /* Degular-Regular.ttf */,
-				512F3EA2269AE5D3001D1F23 /* Degular-Bold.ttf */,
-				512F3EA3269AE5D3001D1F23 /* Degular-Medium.ttf */,
-				512F3EA4269AE5D3001D1F23 /* Degular-Semibold.ttf */,
-			);
-			path = Degular;
 			sourceTree = "<group>";
 		};
 		512F3EA5269AE5D3001D1F23 /* Ubuntu */ = {
@@ -277,13 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				512F3EB0269AE5D3001D1F23 /* Ubuntu-Bold.ttf in Resources */,
-				512F3EAB269AE5D3001D1F23 /* Degular-Bold.ttf in Resources */,
-				512F3EAD269AE5D3001D1F23 /* Degular-Semibold.ttf in Resources */,
 				512F3E99269ADB6A001D1F23 /* EurostileExtendedBlack.ttf in Resources */,
 				512F3EB1269AE5D3001D1F23 /* Ubuntu-Light.ttf in Resources */,
-				512F3EAC269AE5D3001D1F23 /* Degular-Medium.ttf in Resources */,
 				512F3E822699CAE5001D1F23 /* Preview Assets.xcassets in Resources */,
-				512F3EAA269AE5D3001D1F23 /* Degular-Regular.ttf in Resources */,
 				512F3EAF269AE5D3001D1F23 /* Ubuntu-Regular.ttf in Resources */,
 				512F3EAE269AE5D3001D1F23 /* Ubuntu-Medium.ttf in Resources */,
 				512F3E7F2699CAE5001D1F23 /* Assets.xcassets in Resources */,
