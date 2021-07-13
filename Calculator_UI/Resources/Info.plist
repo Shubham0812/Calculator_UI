@@ -33,6 +33,20 @@
 	<array>
 		<string>armv7</string>
 	</array>
+    
+    <key>UIAppFonts</key>
+    <array>
+        <string>Degular-Bold.ttf</string>
+        <string>Degular-Regular.ttf</string>
+        <string>Degular-Medium.ttf</string>
+        <string>Degular-Semibold.ttf</string>
+        <string>Ubuntu-Medium.ttf</string>
+        <string>EurostileExtendedBlack.ttf</string>
+        <string>Ubuntu-Bold.ttf</string>
+        <string>Ubuntu-Regular.ttf</string>
+        <string>Ubuntu-Thin.ttf</string>
+    </array>
+    
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
