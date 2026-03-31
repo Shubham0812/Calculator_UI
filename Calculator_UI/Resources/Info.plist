@@ -36,11 +36,8 @@
     
     <key>UIAppFonts</key>
     <array>
-        <string>Ubuntu-Medium.ttf</string>
         <string>EurostileExtendedBlack.ttf</string>
-        <string>Ubuntu-Bold.ttf</string>
-        <string>Ubuntu-Regular.ttf</string>
-        <string>Ubuntu-Thin.ttf</string>
+        <string>BungeeLayers-Regular.otf</string>
     </array>
     
 	<key>UISupportedInterfaceOrientations</key>
