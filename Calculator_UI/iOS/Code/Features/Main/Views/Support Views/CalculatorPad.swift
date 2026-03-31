@@ -17,6 +17,8 @@ struct CalculatorPad: View {
     
     // to emulate the press of the button, we'll change scale's value on button tap
     @State var scale: CGFloat = 1
+    @State var foregroundColor = Color.white
+
     let animationDuration: TimeInterval = 0.15
     
     var dialPad: DialPad

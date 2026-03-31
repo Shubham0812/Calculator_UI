@@ -65,6 +65,7 @@ struct CalculatorButtons: View {
                 }
             }
         }
+        .environmentObject(appModel)
     }
 }
 

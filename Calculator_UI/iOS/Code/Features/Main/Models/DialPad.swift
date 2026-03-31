@@ -9,6 +9,8 @@ import Foundation
 
 /// Represents every button on the calculator dial pad.
 /// Each case's `rawValue` is the display label shown on the button.
+// Enum to encapsulate the Buttons of the Calculator
+// makes it easy to pass & use the values via raw string
 enum DialPad: String {
     case zero = "0"
     case one = "1"
@@ -33,6 +35,7 @@ enum DialPad: String {
     
     /// Maps an arithmetic dial-pad button to the math operator string used by `NSExpression`.
     /// Returns an empty string for non-operator buttons.
+    // Function to return the operator symbol for the calculator computations
     func getOperator() -> String {
         switch self {
         case .plus:

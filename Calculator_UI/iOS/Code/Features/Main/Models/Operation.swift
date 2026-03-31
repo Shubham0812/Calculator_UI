@@ -7,6 +7,7 @@
 
 /// Arithmetic and special operations supported by the calculator.
 /// The `rawValue` is the math symbol appended to the expression string.
+// Enum to Identify Operations that can be used in our calculator
 enum Operation: String {
     case plus = "+"
     case minus = "-"

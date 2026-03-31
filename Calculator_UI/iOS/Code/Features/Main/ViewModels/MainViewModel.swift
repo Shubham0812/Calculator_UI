@@ -26,6 +26,7 @@ class MainViewModel: ObservableObject {
     
     /// Evaluates the current expression string using `NSExpression` and publishes the result.
     /// Skips evaluation if the expression ends with an operator.
+    // calculates the value of the inputs
     func calculate() {
         // if the input contains an incomplete expression, then don't evaluate it.
         guard (!mathOperations.contains(result.suffix(1)))  else { return }
@@ -96,6 +97,7 @@ class MainViewModel: ObservableObject {
 
     /// Main dispatcher called by `CalculatorPad` on tap. Routes each dial-pad button
     /// to the appropriate digit-entry, operation, or control action.
+    // MARK: - Functions
     func performAction(for pad: DialPad) {
         switch pad {
         case .zero, .one, .two, .three, .four, .five, .six, .seven, .eight, .nine:

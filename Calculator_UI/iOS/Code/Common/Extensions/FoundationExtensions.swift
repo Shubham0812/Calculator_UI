@@ -7,9 +7,10 @@
 
 import UIKit
 
-extension Double {
     /// Formats the double as a clean string — returns a whole number when there is no fractional part,
     /// or a decimal string rounded to the given number of `places`.
+// Allows us to convert Decimal to String, and apply Floating Point Precisions
+extension Double {
     func clean(places: Int) -> String {
         return self.truncatingRemainder(dividingBy: 1) == 0 ? String(format: "%.0f", self) : String(format: "%.\(places)f", self)
     }
