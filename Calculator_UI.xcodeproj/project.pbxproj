@@ -7,28 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510B67EC2A93ED0A0093CFC9 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510B67EB2A93ED0A0093CFC9 /* Operation.swift */; };
+		510B67EF2A94AE070093CFC9 /* BungeeLayers-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 510B67EE2A94AE070093CFC9 /* BungeeLayers-Regular.otf */; };
 		512F3E7B2699CAE2001D1F23 /* Calculator_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F3E7A2699CAE2001D1F23 /* Calculator_UIApp.swift */; };
 		512F3E7D2699CAE2001D1F23 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F3E7C2699CAE2001D1F23 /* MainView.swift */; };
 		512F3E7F2699CAE5001D1F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512F3E7E2699CAE5001D1F23 /* Assets.xcassets */; };
 		512F3E822699CAE5001D1F23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512F3E812699CAE5001D1F23 /* Preview Assets.xcassets */; };
 		512F3E90269AD124001D1F23 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F3E8F269AD124001D1F23 /* FontManager.swift */; };
-		512F3E93269AD1BF001D1F23 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F3E92269AD1BF001D1F23 /* ColorExtensions.swift */; };
 		512F3E95269AD1CE001D1F23 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F3E94269AD1CE001D1F23 /* Colors.swift */; };
 		512F3E99269ADB6A001D1F23 /* EurostileExtendedBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 512F3E98269ADB6A001D1F23 /* EurostileExtendedBlack.ttf */; };
 		512F3E9B269ADE22001D1F23 /* DisplayShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F3E9A269ADE22001D1F23 /* DisplayShape.swift */; };
 		512F3E9F269AE4E4001D1F23 /* CalculatorPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F3E9E269AE4E4001D1F23 /* CalculatorPad.swift */; };
-		512F3EAE269AE5D3001D1F23 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 512F3EA6269AE5D3001D1F23 /* Ubuntu-Medium.ttf */; };
-		512F3EAF269AE5D3001D1F23 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 512F3EA7269AE5D3001D1F23 /* Ubuntu-Regular.ttf */; };
-		512F3EB0269AE5D3001D1F23 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 512F3EA8269AE5D3001D1F23 /* Ubuntu-Bold.ttf */; };
-		512F3EB1269AE5D3001D1F23 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 512F3EA9269AE5D3001D1F23 /* Ubuntu-Light.ttf */; };
 		512F3EB3269AF624001D1F23 /* CalculatorButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F3EB2269AF624001D1F23 /* CalculatorButtons.swift */; };
-		512F3EB6269AF790001D1F23 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F3EB5269AF790001D1F23 /* AppModel.swift */; };
+		512F3EB6269AF790001D1F23 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F3EB5269AF790001D1F23 /* MainViewModel.swift */; };
 		512F3EB8269D8264001D1F23 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F3EB7269D8264001D1F23 /* FoundationExtensions.swift */; };
 		512F3EBA269DA6BA001D1F23 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F3EB9269DA6BA001D1F23 /* DisplayView.swift */; };
-		512F3EBC269DC75D001D1F23 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F3EBB269DC75D001D1F23 /* StringExtensions.swift */; };
+		514E57A52A95EDE500BC6909 /* DialPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514E57A42A95EDE500BC6909 /* DialPad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		510B67EB2A93ED0A0093CFC9 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		510B67EE2A94AE070093CFC9 /* BungeeLayers-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BungeeLayers-Regular.otf"; sourceTree = "<group>"; };
 		512F3E772699CAE2001D1F23 /* Calculator_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		512F3E7A2699CAE2001D1F23 /* Calculator_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_UIApp.swift; sourceTree = "<group>"; };
 		512F3E7C2699CAE2001D1F23 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -36,20 +35,15 @@
 		512F3E812699CAE5001D1F23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		512F3E832699CAE5001D1F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		512F3E8F269AD124001D1F23 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
-		512F3E92269AD1BF001D1F23 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 		512F3E94269AD1CE001D1F23 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		512F3E98269ADB6A001D1F23 /* EurostileExtendedBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EurostileExtendedBlack.ttf; sourceTree = "<group>"; };
 		512F3E9A269ADE22001D1F23 /* DisplayShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayShape.swift; sourceTree = "<group>"; };
 		512F3E9E269AE4E4001D1F23 /* CalculatorPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorPad.swift; sourceTree = "<group>"; };
-		512F3EA6269AE5D3001D1F23 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
-		512F3EA7269AE5D3001D1F23 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
-		512F3EA8269AE5D3001D1F23 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
-		512F3EA9269AE5D3001D1F23 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
 		512F3EB2269AF624001D1F23 /* CalculatorButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtons.swift; sourceTree = "<group>"; };
-		512F3EB5269AF790001D1F23 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		512F3EB5269AF790001D1F23 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		512F3EB7269D8264001D1F23 /* FoundationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
 		512F3EB9269DA6BA001D1F23 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
-		512F3EBB269DC75D001D1F23 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		514E57A42A95EDE500BC6909 /* DialPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialPad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +57,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		510B67EA2A93ED050093CFC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				510B67EB2A93ED0A0093CFC9 /* Operation.swift */,
+				514E57A42A95EDE500BC6909 /* DialPad.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		510B67ED2A94ADFC0093CFC9 /* Bungee */ = {
+			isa = PBXGroup;
+			children = (
+				510B67EE2A94AE070093CFC9 /* BungeeLayers-Regular.otf */,
+			);
+			path = Bungee;
+			sourceTree = "<group>";
+		};
 		512F3E6E2699CAE2001D1F23 = {
 			isa = PBXGroup;
 			children = (
@@ -82,9 +93,7 @@
 		512F3E792699CAE2001D1F23 /* Calculator_UI */ = {
 			isa = PBXGroup;
 			children = (
-				512F3E8D2699CC2B001D1F23 /* Extensions */,
-				512F3E892699CB9F001D1F23 /* Code */,
-				512F3E8E269AD113001D1F23 /* Utils */,
+				514E57A62A95EDF300BC6909 /* iOS */,
 				512F3E8C2699CBD1001D1F23 /* Resources */,
 			);
 			path = Calculator_UI;
@@ -101,9 +110,8 @@
 		512F3E892699CB9F001D1F23 /* Code */ = {
 			isa = PBXGroup;
 			children = (
-				512F3E8A2699CBA3001D1F23 /* Controllers */,
-				512F3EB4269AF785001D1F23 /* Services */,
-				512F3E8B2699CBC7001D1F23 /* Views */,
+				514E57A72A95EE0400BC6909 /* Common */,
+				514E57A82A95EE0800BC6909 /* Features */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -114,17 +122,6 @@
 				512F3E7A2699CAE2001D1F23 /* Calculator_UIApp.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		512F3E8B2699CBC7001D1F23 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				512F3E9C269ADE25001D1F23 /* Support Shapes */,
-				512F3E9D269AE4D2001D1F23 /* Support Views */,
-				512F3E7C2699CAE2001D1F23 /* MainView.swift */,
-				512F3EB2269AF624001D1F23 /* CalculatorButtons.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		512F3E8C2699CBD1001D1F23 /* Resources */ = {
@@ -141,9 +138,7 @@
 		512F3E8D2699CC2B001D1F23 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				512F3E92269AD1BF001D1F23 /* ColorExtensions.swift */,
 				512F3EB7269D8264001D1F23 /* FoundationExtensions.swift */,
-				512F3EBB269DC75D001D1F23 /* StringExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -160,7 +155,7 @@
 		512F3E91269AD150001D1F23 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				512F3EA5269AE5D3001D1F23 /* Ubuntu */,
+				510B67ED2A94ADFC0093CFC9 /* Bungee */,
 				512F3E98269ADB6A001D1F23 /* EurostileExtendedBlack.ttf */,
 			);
 			path = Fonts;
@@ -183,23 +178,59 @@
 			path = "Support Views";
 			sourceTree = "<group>";
 		};
-		512F3EA5269AE5D3001D1F23 /* Ubuntu */ = {
+		514E57A62A95EDF300BC6909 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				512F3EA6269AE5D3001D1F23 /* Ubuntu-Medium.ttf */,
-				512F3EA7269AE5D3001D1F23 /* Ubuntu-Regular.ttf */,
-				512F3EA8269AE5D3001D1F23 /* Ubuntu-Bold.ttf */,
-				512F3EA9269AE5D3001D1F23 /* Ubuntu-Light.ttf */,
+				512F3E892699CB9F001D1F23 /* Code */,
 			);
-			path = Ubuntu;
+			path = iOS;
 			sourceTree = "<group>";
 		};
-		512F3EB4269AF785001D1F23 /* Services */ = {
+		514E57A72A95EE0400BC6909 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				512F3EB5269AF790001D1F23 /* AppModel.swift */,
+				512F3E8A2699CBA3001D1F23 /* Controllers */,
+				512F3E8D2699CC2B001D1F23 /* Extensions */,
+				512F3E8E269AD113001D1F23 /* Utils */,
 			);
-			path = Services;
+			path = Common;
+			sourceTree = "<group>";
+		};
+		514E57A82A95EE0800BC6909 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				514E57A92A95EE0B00BC6909 /* Main */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		514E57A92A95EE0B00BC6909 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				510B67EA2A93ED050093CFC9 /* Models */,
+				514E57AB2A95EF7100BC6909 /* ViewModels */,
+				514E57AA2A95EE2000BC6909 /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		514E57AA2A95EE2000BC6909 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				512F3E9C269ADE25001D1F23 /* Support Shapes */,
+				512F3E9D269AE4D2001D1F23 /* Support Views */,
+				512F3E7C2699CAE2001D1F23 /* MainView.swift */,
+				512F3EB2269AF624001D1F23 /* CalculatorButtons.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		514E57AB2A95EF7100BC6909 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				512F3EB5269AF790001D1F23 /* MainViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,12 +290,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				512F3EB0269AE5D3001D1F23 /* Ubuntu-Bold.ttf in Resources */,
+				510B67EF2A94AE070093CFC9 /* BungeeLayers-Regular.otf in Resources */,
 				512F3E99269ADB6A001D1F23 /* EurostileExtendedBlack.ttf in Resources */,
-				512F3EB1269AE5D3001D1F23 /* Ubuntu-Light.ttf in Resources */,
 				512F3E822699CAE5001D1F23 /* Preview Assets.xcassets in Resources */,
-				512F3EAF269AE5D3001D1F23 /* Ubuntu-Regular.ttf in Resources */,
-				512F3EAE269AE5D3001D1F23 /* Ubuntu-Medium.ttf in Resources */,
 				512F3E7F2699CAE5001D1F23 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,18 +304,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				512F3EBC269DC75D001D1F23 /* StringExtensions.swift in Sources */,
 				512F3E9B269ADE22001D1F23 /* DisplayShape.swift in Sources */,
 				512F3E7D2699CAE2001D1F23 /* MainView.swift in Sources */,
 				512F3E95269AD1CE001D1F23 /* Colors.swift in Sources */,
 				512F3EB3269AF624001D1F23 /* CalculatorButtons.swift in Sources */,
-				512F3EB6269AF790001D1F23 /* AppModel.swift in Sources */,
+				514E57A52A95EDE500BC6909 /* DialPad.swift in Sources */,
+				512F3EB6269AF790001D1F23 /* MainViewModel.swift in Sources */,
 				512F3E9F269AE4E4001D1F23 /* CalculatorPad.swift in Sources */,
 				512F3EB8269D8264001D1F23 /* FoundationExtensions.swift in Sources */,
 				512F3EBA269DA6BA001D1F23 /* DisplayView.swift in Sources */,
 				512F3E90269AD124001D1F23 /* FontManager.swift in Sources */,
+				510B67EC2A93ED0A0093CFC9 /* Operation.swift in Sources */,
 				512F3E7B2699CAE2001D1F23 /* Calculator_UIApp.swift in Sources */,
-				512F3E93269AD1BF001D1F23 /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +448,7 @@
 				DEVELOPMENT_TEAM = VXZ7XFH447;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Calculator_UI/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,7 +470,7 @@
 				DEVELOPMENT_TEAM = VXZ7XFH447;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Calculator_UI/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
