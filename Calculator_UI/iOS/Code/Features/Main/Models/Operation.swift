@@ -11,7 +11,7 @@ enum Operation: String {
     case minus = "-"
     case multiply = "*"
     case divide = "/"
+    case modulo = "%"
     case plusMinus = "±"
-    case percentage = "%"
     case unknown = ""
 }
